@@ -1,3 +1,7 @@
+"use client";
+
+import AdComponent from "./ads";
+
 const VideoComponent = ({ id }: any) => {
   return (
     <div
@@ -20,6 +24,10 @@ const VideoComponent = ({ id }: any) => {
           type="video/mp4"
         />
       </video>
+      <AdComponent className="eas6a97888e6" zoneId="5395330" />
+      <AdComponent className="eas6a97888e17" zoneId="5395332" />
+      <AdComponent className="eas6a97888e14" zoneId="5395336" />
+      <AdComponent className="eas6a97888e31" zoneId="5395338" />
     </div>
   );
 };
