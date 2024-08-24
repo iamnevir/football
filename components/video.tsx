@@ -3,7 +3,6 @@
 import AdComponent from "./ads";
 
 const VideoComponent = ({ id, ads }: any) => {
-  console.log(ads);
   return (
     <div
       style={{
