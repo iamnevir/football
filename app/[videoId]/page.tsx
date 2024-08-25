@@ -21,7 +21,10 @@ const VideoPage = ({ params }: { params: { videoId: string } }) => {
     return null;
   }
 
-  return <VideoComponent id={params.videoId} ads={ads} />;
+  return (
+    <></>
+    // <VideoComponent id={params.videoId} ads={ads} />
+  );
 };
 
 export default VideoPage;
